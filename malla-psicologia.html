@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Psicología</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    .mermaid {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular Psicología</h1>
+  <div class="mermaid">
+graph TD
+  A[Estrategias para el aprendizaje] --> B[Ética]
+  A --> C[Neuropsicología]
+  A --> D[Procesos afectivos]
+  A --> E[Intro a la metodología]
+  B --> F[Psicología social]
+  D --> G[Psicología evolutiva 1]
+  D --> H[Psicología de la personalidad]
+  E --> I[Metodología aplicada]
+  F --> J[Psicología social 2]
+  G --> K[Psicología evolutiva 2]
+  I --> L[Análisis de datos cuantitativos]
+  H --> M[Psicopatología general]
+  H --> N[Evaluación psicológica cognitiva]
+  M --> O[Psicopatología infantil]
+  N --> P[Evaluación de la personalidad]
+  P --> Q[Evaluación integrada]
+
+  style A fill:#FFD1DC
+  style B fill:#FFD1DC
+  style C fill:#FFD1DC
+  style D fill:#FFD1DC
+  style E fill:#A0E7E5
+  style F fill:#FFD1DC
+  style G fill:#FFD1DC
+  style H fill:#FFD1DC
+  style I fill:#A0E7E5
+  style J fill:#FFD1DC
+  style K fill:#FFD1DC
+  style L fill:#A0E7E5
+  style M fill:#FFD1DC
+  style N fill:#FBE7C6
+  style O fill:#FFD1DC
+  style P fill:#FBE7C6
+  style Q fill:#FBE7C6
+  </div>
+</body>
+</html>
