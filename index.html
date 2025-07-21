@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    .mermaid {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular Psicología</h1>
+  <div class="mermaid">
+graph TD
+  A[Intro a la Psicología] --> B[Psicología del Desarrollo]
+  B --> C[Psicopatología]
+  A -.-> D[Formación General]
+  C --> E[Práctica Profesional]
+
+  style A fill:#FFD1DC
+  style B fill:#A0E7E5
+  style C fill:#B4F8C8
+  style D fill:#FFAEBC
+  style E fill:#FBE7C6
+  </div>
+</body>
+</html>
